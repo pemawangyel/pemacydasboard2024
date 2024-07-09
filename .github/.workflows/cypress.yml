@@ -6,7 +6,7 @@ on:
 jobs:
   cypress-run:
     env:
-      CYPRESS_host: https://parabank.parasoft.com/parabank/index.htm
+      CYPRESS_host: https://parabank.parasoft.com/parabank/index.html
       CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
